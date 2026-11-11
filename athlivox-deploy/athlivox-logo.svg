@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="athlivoxLogoTitle">
+  <title id="athlivoxLogoTitle">Athlivox</title>
+  <defs>
+    <linearGradient id="legGrad" x1="70" y1="382" x2="360" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B2CF5"/>
+      <stop offset="0.48" stop-color="#5B21B6"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="foldGrad" x1="286" y1="48" x2="370" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#090E26"/>
+    </linearGradient>
+    <linearGradient id="rightGrad" x1="330" y1="30" x2="520" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0B1029"/>
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="318" y1="330" x2="706" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4"/>
+      <stop offset="0.46" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="520" y1="310" x2="620" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2E1065"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left leg of the A -->
+  <path d="M 18 382 L 256 48 L 296 48 L 380 170 L 300 238 L 148 382 Z" fill="url(#legGrad)"/>
+  <!-- Dark inner fold -->
+  <path d="M 286 48 L 372 166 L 300 238 L 256 160 Z" fill="url(#foldGrad)"/>
+  <!-- Right leg of the A -->
+  <path d="M 300 48 L 344 48 L 518 294 L 452 330 L 282 92 Z" fill="url(#rightGrad)"/>
+  <!-- Apex filler keeps the ribbon edges joined -->
+  <path d="M 286 48 L 344 48 L 372 166 L 300 238 Z" fill="url(#foldGrad)"/>
+  <!-- Accent triangle -->
+  <path d="M 516 308 L 626 308 L 566 392 Z" fill="url(#sparkGrad)"/>
+  <!-- Check mark -->
+  <path d="M 286 242 L 356 242 L 446 322 L 696 74 L 738 116 L 430 392 Q 418 402 406 390 L 286 270 Z" fill="url(#checkGrad)"/>
+</svg>
